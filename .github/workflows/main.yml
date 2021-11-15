@@ -1,0 +1,19 @@
+name: Move Content to blog.aaronlangley.net
+
+on:
+  push:
+    paths:
+      - 'public/**'
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Copy public folder contents 
+        shell: bash
+        
+        run: |
+          git commit -a -m "Generated via GithubPages"
+          git push
