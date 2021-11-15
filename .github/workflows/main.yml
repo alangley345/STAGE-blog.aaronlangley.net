@@ -15,5 +15,6 @@ jobs:
         shell: bash
         
         run: |
+          cd public
           git commit -a -m "Generated via GithubPages"
           git push
