@@ -8,6 +8,6 @@ features = ["Simple Material Design","Google Analytics","Pagination",
 "Disqus","Tags","Categories","Highlighting source code","Cover image","Social links"]
 min_version = 0.14
 
-[author]
-  name = "pdevty"
-  homepage = "http://pdevty.github.io/blog/"
+#[author]
+# name = "pdevty"
+# homepage = "http://pdevty.github.io/blog/"
